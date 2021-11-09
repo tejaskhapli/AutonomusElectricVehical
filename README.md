@@ -27,7 +27,7 @@ IDE Used: Spring Tool Suite 4
 	- Open Docker Desktop and Run the Docker image created for this application in above step.
 	- All the necessary steps have been included in Dockerfile for running the image in port 8080
 	- [Docker Image can also be run using below command through command line interface(terminal)]
-			- docker run -d -p 80:80 autonomous-electric-vehical
+		- docker run -d -p 8080:8080 autonomous-electric-vehical
 	- Once the docker image is running, run the application using below command:
 		- To Run the Application REST API following details:
 			- URL : localhost:8080/process
